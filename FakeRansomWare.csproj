@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>FoxGirl.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CatGirlBeckon.png" />
+    <None Remove="FoxGirl.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="CatGirlBeckon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="FoxGirl.ico" />
+  </ItemGroup>
+
+</Project>
